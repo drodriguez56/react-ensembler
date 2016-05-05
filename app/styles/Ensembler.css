@@ -1,0 +1,35 @@
+.sliderSection{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+  -webkit-user-select: none;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+}
+.slidesList{
+	height: 500px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.sliderTrack{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+}
+.slide{
+	float: left;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+}
+.nexPrevButtons{
+	text-align: center;
+}
+
+.productImg{
+	height: 400px;
+}
